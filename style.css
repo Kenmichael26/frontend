@@ -1,0 +1,230 @@
+/* Reset default margins and paddings for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+/* Main container styles */
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url(htt.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* Navbar styles */
+.navbar {
+    width: 100%;
+    max-width: 1200px; /* Set a max-width to center the content within the viewport */
+    height: 75px;
+    margin: 0 auto; /* Auto margin horizontally centers the container */
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Align items vertically in the center */
+}
+
+/* Icon and logo styles */
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo {
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+/* Menu styles */
+.menu {
+    flex: 1; /* Allow the menu to grow and fill the remaining space */
+    margin-left: 60px;
+}
+
+ul {
+    display: flex; /* Use flexbox for the list */
+    justify-content: space-between; /* Spread the list items evenly */
+    align-items: center; /* Align items vertically in the center */
+    list-style: none;
+    height: 100%;
+    padding-right: 20px; /* Add some space on the right side of the menu */
+}
+
+ul li {
+    font-size: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: #ff7200;
+}
+
+/* Content styles */
+.content {
+    width: 100%;
+    max-width: 1200px; /* Set a max-width to center the content within the viewport */
+    margin: 0 auto; /* Auto margin horizontally centers the container */
+    padding-top: 50px; /* Add some space at the top */
+    position: relative; /* Add relative positioning for the content container */
+}
+
+.content .par {
+    font-size: 14px; /* Reduce the font size for better readability */
+    letter-spacing: 1.5px;
+    line-height: 1.6; /* Increase the line height for better spacing */
+}
+
+.content h1 {
+    font-family: 'Times New Roman', serif;
+    font-size: 36px; /* Increase the font size for headings */
+    margin-top: 40px; /* Add some space at the top */
+}
+
+/* Form styles */
+.form {
+    width: 250px;
+    height: 470px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.8) 50%);
+    position: absolute;
+    top: 100%; /* Position the form below the content container */
+    left: 87%; /* Move the form to the horizontal center */
+    transform: translate(-50%, 5%); /* Adjust vertical positioning */
+    border-radius: 10px;
+    padding: 25px;
+}
+.form{
+    top: 7%;
+}
+.form h2 {
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+.form select {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid #ff7200; /* Adding border for the select box */
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 20px; /* Adjusted margin to space it properly */
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+
+.form select:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn {
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+.btnn:hover {
+    background: #fff;
+    color: #ff7200;
+}
+
+.btnn a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.form .link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link a {
+    text-decoration: none;
+    color: #ff7200;
+}
+
+.liw {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/* Icons styles */
+.icons {
+    position: relative; /* Add relative positioning for the icons container */
+}
+
+.icons a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons ion-icon {
+    color: #fff;
+    font-size: 30px;
+    padding-left: 22px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+
+.icons ion-icon:hover {
+    color: #ff7200;
+}
